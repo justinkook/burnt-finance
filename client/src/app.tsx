@@ -1,61 +1,84 @@
-import * as React from "react";
-import { Route, Switch, Redirect, useRouteMatch } from "react-router-dom";
+import React from "react";
+import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
+import Desktop44 from "./components/Desktop44";
 
-import { HomePage } from "pages/HomePage";
-import { GamePage } from "pages/GamePage";
-import { SlotsPage } from "pages/SlotsPage";
-import { WalletPage } from "pages/WalletPage";
-import { ResultsPage } from "pages/ResultsPage";
-import { StartPage } from "pages/StartPage";
-
-import { ClusterModal } from "components/ClusterModal";
-import { LoadingModal } from "components/LoadingModal";
-import { useGameState } from "providers/game";
-import { useClusterModal } from "providers/server";
-import { Header } from "components/Header";
-
-export default function App() {
-  const isHomePage = !!useRouteMatch("/")?.isExact;
-  const isWalletPage = !!useRouteMatch("/wallet")?.isExact;
-  const isSlotsPage = !!useRouteMatch("/slots")?.isExact;
-  const [showClusterModal] = useClusterModal();
-  const gameState = useGameState();
-
-  if (isHomePage) {
-    return (
-      <div className="main-content">
-        <HomePage />
-      </div>
-    );
-  }
-
-  const isLoading = gameState.loadingPhase !== "complete";
-  const isInitializing =
-    gameState.loadingPhase === "config" && !isWalletPage && !isSlotsPage;
-  const showLoadingModal = isLoading && !isWalletPage && !isSlotsPage;
+function App() {
   return (
-    <div className="main-content">
-      <div className="min-vh-100 d-flex flex-column">
-        <Header />
-        {!isInitializing && (
-          <Switch>
-            <Route path="/game" exact component={GamePage} />
-            <Route path="/slots" exact component={SlotsPage} />
-            <Route path="/wallet" exact component={WalletPage} />
-            <Route path="/results" exact component={ResultsPage} />
-            <Route path="/start" exact component={StartPage} />
-            <Redirect from="*" to="/" exact />
-          </Switch>
-        )}
-      </div>
-      <LoadingModal show={showLoadingModal} phase={gameState.loadingPhase} />
-      <ClusterModal />
-      <Overlay show={showLoadingModal || showClusterModal} />
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/:path(|desktop-44)">
+          <Desktop44 {...desktop44Data} />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
-function Overlay({ show }: { show: boolean }) {
-  if (show) return <div className="modal-backdrop fade show"></div>;
-  return <div className="fade"></div>;
-}
+export default App;
+const group7132Data = {
+    className: "group-945",
+};
+
+const group7133Data = {
+    className: "group-946",
+};
+
+const desktop44Data = {
+    x: "X",
+    rectangle722: "/img/rectangle-722@2x.svg",
+    motorcycles: "Create my NFT",
+    vector3: "/img/vector-3-1@2x.svg",
+    line35: "/img/line-35-1@2x.svg",
+    goBack: "Go back",
+    line126: "/img/line-126@1x.svg",
+    preview: "Preview",
+    cryptoWheel: "CRYPTO WHEEL",
+    auction: "AUCTION",
+    line118: "/img/line-118@2x.svg",
+    address: "1 of 1",
+    noBidYet: "No bid yet",
+    uploadFile: "Upload file",
+    chooseCollection: "Choose collection",
+    overlapGroup4: "/img/rectangle-738@2x.svg",
+    accordionBlack: "/img/fill-1@2x.svg",
+    newCollection: "New collection",
+    text1: "PNG, GIF, WEBP, MP4 or MP3. Max 30mb.",
+    chooseFile: "Choose file",
+    vector32: "/img/vector-3@2x.svg",
+    line352: "/img/line-35@2x.svg",
+    eGCryptoWheel: "e.g. Crypto Wheel",
+    text2: "Digital key, code to redeem or link to a file...",
+    title: "ETH",
+    iconMaterialNavigateNext: "/img/icon-material-navigate-next@2x.svg",
+    line125: "/img/line-125@2x.svg",
+    line127: "/img/line-125@2x.svg",
+    serviceFee25: "/img/service-fee-2-5-@1x.png",
+    tipMarkdownSyntaxIsSupported: "/img/tip--markdown-syntax-is-supported@1x.png",
+    youWillReceive0Eth000: "/img/you-will-receive-0-eth--0-00@1x.png",
+    putOnSale: "Put on sale",
+    instantSalePrice: "Instant sale price",
+    text4: "Unlock once purchased",
+    text5: "You’ll receive bids on this item",
+    text6: "Enter the price for which the item will be instantly sold",
+    text7: "Content will be unlocked after successful transaction",
+    place: "Name",
+    eGCryptoWheel2: "e.g. Crypto Wheel",
+    line1252: "/img/line-125@2x.svg",
+    description: "Description",
+    optional: "(optional)",
+    eGLoremIpsum: "e.g. Lorem ipsum",
+    line1253: "/img/line-125@2x.svg",
+    accordionBlack2: "/img/fill-1@2x.svg",
+    addProperty: "Add Property",
+    royalties: "Royalties",
+    number: "10",
+    text3: "%",
+    line1254: "/img/line-125-3@2x.svg",
+    numberOfCopies: "Number of copies",
+    number2: "1",
+    line1255: "/img/line-125-3@2x.svg",
+    createItem: "Create item",
+    group713Props: group7132Data,
+    group7132Props: group7133Data,
+};
+

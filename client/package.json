@@ -15,13 +15,9 @@
     "format": "prettier -c \"**/*.+(js|jsx|ts|tsx|json|css|scss|md)\"",
     "format:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|css|scss|md)\""
   },
-  "proxy": "http://localhost:8080",
-  "testnetDefaultChannel": "edge",
   "dependencies": {
     "@react-hook/debounce": "^3.0.0",
     "@react-hook/throttle": "^2.2.0",
-    "@sentry/react": "^5.26.0",
-    "@sentry/tracing": "^5.26.0",
     "@solana/web3.js": "^1.12.0",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
