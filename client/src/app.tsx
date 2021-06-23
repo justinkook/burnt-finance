@@ -7,7 +7,6 @@ import CreateProjectPage from "./pages/CreateProjectPage";
 import PlaceBidModal from "./components/PlaceBidModal";
 import ProductPage from "./pages/ProductPage";
 import LandingPage from "./pages/LandingPage";
-import HomePage from "./pages/HomePage";
 
 function App() {
   return (
@@ -38,11 +37,8 @@ function App() {
         <Route path="/product-detail">
           <ProductPage {...productPageData} />
         </Route>
-        <Route path="/landingpage">
-          <LandingPage {...landingPageData} />
-        </Route>
         <Route path="/:path(|home)">
-          <HomePage {...homePageData} />
+          <LandingPage {...landingPageData} />
         </Route>
       </Switch>
     </Router>
@@ -499,7 +495,44 @@ const tripleDotsIcon2Data = {
   className: "menu-1",
 };
 
+const homePageData = {
+  maskGroup: "/assets/img/mask-group@2x.svg",
+  overlapGroup6: "/assets/img/rectangle-760@2x.png",
+  rectangle763: "/assets/img/rectangle-763-1@2x.png",
+  overlapGroup11: "/assets/img/rectangle-762@2x.png",
+  overlapGroup4: "/assets/img/rectangle-768@2x.png",
+  rectangle769: "/assets/img/rectangle-769-1@2x.png",
+  overlapGroup10: "/assets/img/mask-group-1@2x.svg",
+  rectangle711: "/assets/img/rectangle-711-1@2x.png",
+  rectangle765: "/assets/img/rectangle-765@2x.png",
+  rectangle770: "/assets/img/rectangle-770-1@2x.png",
+  overlapGroup8: "/assets/img/rectangle-764@2x.png",
+  overlapGroup3: "/assets/img/rectangle-767@2x.png",
+  rectangle719: "/assets/img/rectangle-719-1@2x.png",
+  group987: "/assets/img/mask-group-3@2x.svg",
+  homeimage1: "/assets/img/rectangle-766@2x.png",
+  image1: "/assets/img/mask-group-6@2x.svg",
+  burntLogo: "/assets/img/image-11@2x.png",
+  explore: "EXPLORE",
+  community: "COMMUNITY",
+  learn: "LEARN",
+  navbardivider: "/assets/img/line-1@2x.svg",
+  create: "Create",
+  linkicon: "/assets/img/vector@2x.svg",
+  connectWallet: "Connect Wallet",
+  hometransparentmask: "/assets/img/rectangle-721@1x.svg",
+  homebluetintmask: "/assets/img/rectangle-753@1x.svg",
+  text62: "Make the next big thing today",
+  nfts: "/assets/img/get-started-button@2x.svg",
+  fundraising: "/assets/img/get-started-button-1@2x.svg",
+  synthetics: "/assets/img/get-started-button-2@2x.svg",
+  homedivider: "/assets/img/line-22@1x.svg",
+  text5: "Or scroll to explore",
+  rectangle722: "/assets/img/rectangle-722@2x.svg",
+};
+
 const landingPageData = {
+  ...homePageData,
   line67: "/assets/img/line-67@2x.svg",
   searchPlaceholder: "Search by creator, collectible or collection",
   explore: "EXPLORE",
@@ -646,40 +679,4 @@ const placeBidModalData = {
   quantityText: "QUANTITY",
   address: "15 available",
   to2: "YOUR BID",
-};
-
-const homePageData = {
-  maskGroup: "/assets/img/mask-group@2x.svg",
-  overlapGroup6: "/assets/img/rectangle-760@2x.png",
-  rectangle763: "/assets/img/rectangle-763-1@2x.png",
-  overlapGroup11: "/assets/img/rectangle-762@2x.png",
-  overlapGroup4: "/assets/img/rectangle-768@2x.png",
-  rectangle769: "/assets/img/rectangle-769-1@2x.png",
-  overlapGroup10: "/assets/img/mask-group-1@2x.svg",
-  rectangle711: "/assets/img/rectangle-711-1@2x.png",
-  rectangle765: "/assets/img/rectangle-765@2x.png",
-  rectangle770: "/assets/img/rectangle-770-1@2x.png",
-  overlapGroup8: "/assets/img/rectangle-764@2x.png",
-  overlapGroup3: "/assets/img/rectangle-767@2x.png",
-  rectangle719: "/assets/img/rectangle-719-1@2x.png",
-  group987: "/assets/img/mask-group-3@2x.svg",
-  homeimage1: "/assets/img/rectangle-766@2x.png",
-  image1: "/assets/img/mask-group-6@2x.svg",
-  burntLogo: "/assets/img/image-11@2x.png",
-  explore: "EXPLORE",
-  community: "COMMUNITY",
-  learn: "LEARN",
-  navbardivider: "/assets/img/line-1@2x.svg",
-  create: "Create",
-  linkicon: "/assets/img/vector@2x.svg",
-  connectWallet: "Connect Wallet",
-  hometransparentmask: "/assets/img/rectangle-721@1x.svg",
-  homebluetintmask: "/assets/img/rectangle-753@1x.svg",
-  text62: "Make the next big thing today",
-  nfts: "/assets/img/get-started-button@2x.svg",
-  fundraising: "/assets/img/get-started-button-1@2x.svg",
-  synthetics: "/assets/img/get-started-button-2@2x.svg",
-  homedivider: "/assets/img/line-22@1x.svg",
-  text5: "Or scroll to explore",
-  rectangle722: "/assets/img/rectangle-722@2x.svg",
 };
