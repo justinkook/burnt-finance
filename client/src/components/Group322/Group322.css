@@ -1,0 +1,32 @@
+.buy-now {
+  letter-spacing: 0.8px;
+  line-height: 35px;
+  min-height: 37px;
+  min-width: 265px;
+  mix-blend-mode: normal;
+  text-align: center;
+  white-space: nowrap;
+  width: 265px;
+}
+.group-3-7-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 48px;
+  left: 0;
+  min-width: 435px;
+  position: absolute;
+  top: 118px;
+}
+.group-3-7-1.group-3-7 .overlap-group3-14 {
+  border-radius: 16px;
+}
+.overlap-group3-14 {
+  align-items: flex-start;
+  background-color: var(--black);
+  border-radius: 25px;
+  display: flex;
+  height: 48px;
+  justify-content: flex-end;
+  min-width: 433px;
+  padding: 4.3px 81px;
+}

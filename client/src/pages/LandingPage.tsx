@@ -44,20 +44,32 @@ function LandingPage(props: any) {
           <div className="group-988">
             <div className="flex-col-1">
               <img className="mask-group" src={maskGroup} />
-              <div className="overlap-group" style={{ backgroundImage: `url(${overlapGroup6})` }}></div>
+              <div
+                className="overlap-group"
+                style={{ backgroundImage: `url(${overlapGroup6})` }}
+              ></div>
               <div className="overlap-group-1">
                 <img className="rectangle-763" src={rectangle763} />
               </div>
             </div>
             <div className="flex-col-2">
-              <div className="overlap-group-2" style={{ backgroundImage: `url(${overlapGroup11})` }}></div>
-              <div className="overlap-group" style={{ backgroundImage: `url(${overlapGroup4})` }}></div>
+              <div
+                className="overlap-group-2"
+                style={{ backgroundImage: `url(${overlapGroup11})` }}
+              ></div>
+              <div
+                className="overlap-group"
+                style={{ backgroundImage: `url(${overlapGroup4})` }}
+              ></div>
               <div className="overlap-group-1">
                 <img className="rectangle-769" src={rectangle769} />
               </div>
             </div>
             <div className="flex-col">
-              <div className="overlap-group10" style={{ backgroundImage: `url(${overlapGroup10})` }}></div>
+              <div
+                className="overlap-group10"
+                style={{ backgroundImage: `url(${overlapGroup10})` }}
+              ></div>
               <img className="rectangle-711" src={rectangle711} />
               <div className="rectangle-717"></div>
             </div>
@@ -71,14 +83,23 @@ function LandingPage(props: any) {
               <div className="rectangle-718"></div>
             </div>
             <div className="flex-col-3">
-              <div className="overlap-group-2" style={{ backgroundImage: `url(${overlapGroup8})` }}></div>
-              <div className="overlap-group" style={{ backgroundImage: `url(${overlapGroup3})` }}></div>
+              <div
+                className="overlap-group-2"
+                style={{ backgroundImage: `url(${overlapGroup8})` }}
+              ></div>
+              <div
+                className="overlap-group"
+                style={{ backgroundImage: `url(${overlapGroup3})` }}
+              ></div>
               <img className="rectangle-719" src={rectangle719} />
             </div>
             <div className="flex-col-4">
               <div className="overlap-group2">
                 <div className="rectangle-714"></div>
-                <div className="group-987" style={{ backgroundImage: `url(${group987})` }}>
+                <div
+                  className="group-987"
+                  style={{ backgroundImage: `url(${group987})` }}
+                >
                   <div className="rectangle-759"></div>
                 </div>
               </div>
@@ -91,18 +112,24 @@ function LandingPage(props: any) {
           <div className="group-989">
             <img className="image-11" src={image11} />
             <div className="explore mulish-semi-bold-black-16px">{explore}</div>
-            <div className="community mulish-semi-bold-black-16px">{community}</div>
+            <div className="community mulish-semi-bold-black-16px">
+              {community}
+            </div>
             <div className="learn mulish-semi-bold-black-16px">{learn}</div>
             <img className="line-1" src={line1} />
             <div className="group-3">
               <div className="overlap-group1">
-                <div className="create mulish-extra-bold-white-16px">{create}</div>
+                <div className="create mulish-extra-bold-white-16px">
+                  {create}
+                </div>
               </div>
             </div>
             <div className="group-454">
               <div className="overlap-group2-1 border-1px-silver">
                 <img className="vector" src="/img/vector@2x.svg" />
-                <div className="connect-wallet mulish-extra-bold-black-16px">{connectWallet}</div>
+                <div className="connect-wallet mulish-extra-bold-black-16px">
+                  {connectWallet}
+                </div>
               </div>
             </div>
           </div>

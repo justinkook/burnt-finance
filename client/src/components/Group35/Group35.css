@@ -1,0 +1,100 @@
+.create {
+  letter-spacing: 0.8px;
+  line-height: 35px;
+  min-height: 35px;
+  min-width: 58px;
+  mix-blend-mode: normal;
+  text-align: center;
+  white-space: nowrap;
+}
+.create-1 {
+  letter-spacing: 0.8px;
+  line-height: 35px;
+  min-height: 35px;
+  min-width: 58px;
+  mix-blend-mode: normal;
+  text-align: center;
+  white-space: nowrap;
+}
+.create-2 {
+  letter-spacing: 0.8px;
+  line-height: 35px;
+  min-height: 35px;
+  min-width: 58px;
+  mix-blend-mode: normal;
+  text-align: center;
+  white-space: nowrap;
+}
+.create-3 {
+  letter-spacing: 0.8px;
+  line-height: 35px;
+  min-height: 35px;
+  min-width: 58px;
+  mix-blend-mode: normal;
+  text-align: center;
+  white-space: nowrap;
+}
+.group-3-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 47px;
+  min-width: 122px;
+}
+.group-3-4 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 47px;
+  min-width: 122px;
+}
+.group-3-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 47px;
+  min-width: 122px;
+}
+.group-3-6 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 47px;
+  min-width: 122px;
+}
+.overlap-group1-9 {
+  align-items: flex-start;
+  background-color: var(--black);
+  border-radius: 25px;
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  min-width: 120px;
+  padding: 4px 30px;
+}
+.overlap-group2-7 {
+  align-items: flex-start;
+  background-color: var(--black);
+  border-radius: 25px;
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  min-width: 120px;
+  padding: 4px 30px;
+}
+.overlap-group3-13 {
+  align-items: flex-start;
+  background-color: var(--black);
+  border-radius: 25px;
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  min-width: 120px;
+  padding: 4px 30px;
+}
+.overlap-group8 {
+  align-items: flex-start;
+  background-color: var(--black);
+  border-radius: 25px;
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  min-width: 120px;
+  padding: 4px 30px;
+}

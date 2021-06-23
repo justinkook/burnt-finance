@@ -1,0 +1,64 @@
+.choose-file {
+  left: 20px;
+  letter-spacing: 0.7px;
+  line-height: 35px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+.choose-file-1 {
+  left: 20px;
+  letter-spacing: 0.7px;
+  line-height: 35px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+.group-3-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-right: 10px;
+  margin-top: 16px;
+  min-width: 122px;
+}
+.group-3-2 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-right: 10px;
+  margin-top: 16px;
+  min-width: 122px;
+}
+.overlap-group3-8 {
+  height: 35px;
+  position: relative;
+  width: 120px;
+}
+.overlap-group3-9 {
+  height: 35px;
+  position: relative;
+  width: 120px;
+}
+.sign-up-button {
+  border-radius: 16px;
+  height: 32px;
+  left: 0;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2px;
+  width: 120px;
+}
+.sign-up-button-1 {
+  border-radius: 16px;
+  height: 32px;
+  left: 0;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2px;
+  width: 120px;
+}
