@@ -24,6 +24,9 @@ const rootPath = path.join(__dirname, "..", "..");
 const staticPath = path.join(rootPath, "client", "build");
 console.log(`Serving static files from: ${staticPath}`);
 app.use("/", express.static(staticPath));
+app.get("/service-worker.js", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "public", "service-worker.js"));
+});
 app.get("/*", (req, res) => {
   res.sendFile(path.join(staticPath, "/index.html"));
 });
