@@ -94,16 +94,28 @@ function CreatePage(props: any) {
             <div className="flex-row-1">
               <div className="auction">{auction}</div>
               <img className="line-118" src={line118} />
-              <div className="address mulish-normal-quick-silver-14px">{address}</div>
+              <div className="address mulish-normal-quick-silver-14px">
+                {address}
+              </div>
             </div>
-            <div className="no-bid-yet mulish-normal-quick-silver-14px">{noBidYet}</div>
+            <div className="no-bid-yet mulish-normal-quick-silver-14px">
+              {noBidYet}
+            </div>
           </div>
         </div>
         <div className="upload-file mulish-bold-black-14px">{uploadFile}</div>
-        <div className="choose-collection mulish-bold-black-14px">{chooseCollection}</div>
+        <div className="choose-collection mulish-bold-black-14px">
+          {chooseCollection}
+        </div>
         <div className="group-641">
-          <div className="overlap-group4" style={{ backgroundImage: `url(${overlapGroup4})` }}>
-            <div className="accordion-black" style={{ backgroundImage: `url(${accordionBlack})` }}></div>
+          <div
+            className="overlap-group4"
+            style={{ backgroundImage: `url(${overlapGroup4})` }}
+          >
+            <div
+              className="accordion-black"
+              style={{ backgroundImage: `url(${accordionBlack})` }}
+            ></div>
             <div className="new-collection">{newCollection}</div>
           </div>
         </div>
@@ -122,17 +134,30 @@ function CreatePage(props: any) {
         <div className="overlap-group1">
           <div className="rectangle-755"></div>
           <div className="rectangle-756"></div>
-          <div className="eg-crypto-wheel mulish-normal-quick-silver-14px">{eGCryptoWheel}</div>
+          <div className="eg-crypto-wheel mulish-normal-quick-silver-14px">
+            {eGCryptoWheel}
+          </div>
           <p className="text-2 mulish-normal-quick-silver-14px">{text2}</p>
           <div className="title">{title}</div>
-          <img className="icon-material-navigate-next" src={iconMaterialNavigateNext} />
+          <img
+            className="icon-material-navigate-next"
+            src={iconMaterialNavigateNext}
+          />
           <img className="line-125-2" src={line125} />
           <img className="line-127" src={line127} />
           <img className="service-fee-25" src={serviceFee25} />
-          <img className="tip-markdown-sy-ax-is-supported" src={tipMarkdownSyntaxIsSupported} />
-          <img className="you-will-receive-0-eth-000" src={youWillReceive0Eth000} />
+          <img
+            className="tip-markdown-sy-ax-is-supported"
+            src={tipMarkdownSyntaxIsSupported}
+          />
+          <img
+            className="you-will-receive-0-eth-000"
+            src={youWillReceive0Eth000}
+          />
           <div className="put-on-sale mulish-bold-black-14px">{putOnSale}</div>
-          <div className="instant-sale-price mulish-bold-black-14px">{instantSalePrice}</div>
+          <div className="instant-sale-price mulish-bold-black-14px">
+            {instantSalePrice}
+          </div>
           <div className="text-4 mulish-bold-black-14px">{text4}</div>
           <p className="text-5 mulish-normal-sonic-silver-12px">{text5}</p>
           <p className="text-6 mulish-normal-sonic-silver-12px">{text6}</p>
@@ -143,25 +168,40 @@ function CreatePage(props: any) {
         </div>
         <div className="group-923">
           <div className="place mulish-bold-black-14px">{place}</div>
-          <div className="eg-crypto-wheel-1 mulish-normal-quick-silver-14px">{eGCryptoWheel2}</div>
+          <div className="eg-crypto-wheel-1 mulish-normal-quick-silver-14px">
+            {eGCryptoWheel2}
+          </div>
           <img className="line-125" src={line1252} />
         </div>
         <div className="group-924">
           <div className="flex-row-2">
-            <div className="description mulish-bold-black-14px">{description}</div>
-            <div className="optional mulish-normal-quick-silver-14px">{optional}</div>
+            <div className="description mulish-bold-black-14px">
+              {description}
+            </div>
+            <div className="optional mulish-normal-quick-silver-14px">
+              {optional}
+            </div>
           </div>
-          <div className="eg-lorem-ipsum mulish-normal-quick-silver-14px">{eGLoremIpsum}</div>
+          <div className="eg-lorem-ipsum mulish-normal-quick-silver-14px">
+            {eGLoremIpsum}
+          </div>
           <img className="line-125" src={line1253} />
         </div>
         <div className="group-927">
-          <div className="accordion-black-1" style={{ backgroundImage: `url(${accordionBlack2})` }}></div>
-          <div className="add-property mulish-bold-black-14px">{addProperty}</div>
+          <div
+            className="accordion-black-1"
+            style={{ backgroundImage: `url(${accordionBlack2})` }}
+          ></div>
+          <div className="add-property mulish-bold-black-14px">
+            {addProperty}
+          </div>
         </div>
         <div className="group-925">
           <div className="flex-row-3">
             <div className="flex-col">
-              <div className="royalties mulish-bold-black-14px">{royalties}</div>
+              <div className="royalties mulish-bold-black-14px">
+                {royalties}
+              </div>
               <div className="number mulish-light-black-14px">{number}</div>
             </div>
             <div className="text-3 mulish-light-black-14px">{text3}</div>
@@ -169,7 +209,9 @@ function CreatePage(props: any) {
           <img className="line-125-1" src={line1254} />
         </div>
         <div className="group-926">
-          <div className="number-of-copies mulish-bold-black-14px">{numberOfCopies}</div>
+          <div className="number-of-copies mulish-bold-black-14px">
+            {numberOfCopies}
+          </div>
           <div className="number-1 mulish-light-black-14px">{number2}</div>
           <img className="line-125-1" src={line1255} />
         </div>
