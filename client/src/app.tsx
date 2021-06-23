@@ -1,13 +1,13 @@
 import React from "react";
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
-import Desktop44 from "./components/Desktop44";
+import CreatePage from "./pages/CreatePage";
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/:path(|desktop-44)">
-          <Desktop44 {...desktop44Data} />
+        <Route path="/:path(|create-my-nft)">
+          <CreatePage {...createPageData} />
         </Route>
       </Switch>
     </Router>
@@ -15,15 +15,15 @@ function App() {
 }
 
 export default App;
-const group7132Data = {
+const slider2Data = {
     className: "group-945",
 };
 
-const group7133Data = {
+const slider3Data = {
     className: "group-946",
 };
 
-const desktop44Data = {
+const createPageData = {
     x: "X",
     rectangle722: "/img/rectangle-722@2x.svg",
     motorcycles: "Create my NFT",
@@ -78,7 +78,7 @@ const desktop44Data = {
     number2: "1",
     line1255: "/img/line-125-3@2x.svg",
     createItem: "Create item",
-    group713Props: group7132Data,
-    group7132Props: group7133Data,
+    sliderProps: slider2Data,
+    slider2Props: slider3Data,
 };
 

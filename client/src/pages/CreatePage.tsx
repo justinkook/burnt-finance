@@ -1,8 +1,7 @@
 import React from "react";
-import Group713 from "../Group713";
-import "./Desktop44.scss";
+import Slider from "../components/Slider";
 
-function Desktop44(props: any) {
+function CreatePage(props: any) {
   const {
     x,
     rectangle722,
@@ -58,8 +57,8 @@ function Desktop44(props: any) {
     number2,
     line1255,
     createItem,
-    group713Props,
-    group7132Props,
+    sliderProps,
+    slider2Props,
   } = props;
 
   return (
@@ -138,9 +137,9 @@ function Desktop44(props: any) {
           <p className="text-5 mulish-normal-sonic-silver-12px">{text5}</p>
           <p className="text-6 mulish-normal-sonic-silver-12px">{text6}</p>
           <p className="text-7 mulish-normal-sonic-silver-12px">{text7}</p>
-          <Group713 />
-          <Group713 className={group713Props.className} />
-          <Group713 className={group7132Props.className} />
+          <Slider />
+          <Slider className={sliderProps.className} />
+          <Slider className={slider2Props.className} />
         </div>
         <div className="group-923">
           <div className="place mulish-bold-black-14px">{place}</div>
@@ -184,4 +183,4 @@ function Desktop44(props: any) {
   );
 }
 
-export default Desktop44;
+export default CreatePage;

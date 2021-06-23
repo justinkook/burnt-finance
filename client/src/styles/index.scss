@@ -1,14 +1,14 @@
 // Bootstrap functions
 @import "~bootstrap/scss/functions.scss";
 
+// Globals
+@import "globals.scss";
+
 // Custom variables
-@import "custom-variables";
+@import "styleguide.scss";
 
 // Bootstrap core
 @import "~bootstrap/scss/bootstrap.scss";
-
-@import "styleguide.scss";
-@import "globals.scss";
 
 // Custom core
 @import "custom";
