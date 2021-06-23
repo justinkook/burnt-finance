@@ -1,18 +1,23 @@
 {
-  "name": "burnt-finance",
+  "name": "@burnt-finance/demo",
   "version": "0.1.0",
   "private": true,
+  "cacheDirectories": [
+    "client/node_modules",
+    "server/node_modules"
+  ],
   "scripts": {
-    "server": "npm start --prefix server",
-    "server:dev": "npm run start:dev --prefix server",
-    "client": "npm start --prefix client",
-    "build": "npm run build --prefix server && npm run build --prefix client",
-    "start": "concurrently \"npm run server\" \"npm run client\"",
-    "dev": "concurrently \"npm run server:dev\" \"npm run client\"",
-    "format": "npm run format --prefix server && npm run format --prefix client",
-    "format:fix": "npm run format:fix --prefix server && npm run format:fix --prefix client"
-  },
-  "devDependencies": {
-    "concurrently": "^6.2.0"
+    "client:build": "./package.sh client run build",
+    "client:install": "./package.sh client install",
+    "server:build": "./package.sh server run build",
+    "server:start": "./package.sh server run start",
+    "server:install": "./package.sh server install",
+    "start": "npm run server:start",
+    "build": "./package.sh both run build",
+    "lint": "./package.sh both run lint",
+    "lint:fix": "./package.sh both run lint:fix",
+    "format": "./package.sh both run format",
+    "format:fix": "./package.sh both run format:fix",
+    "postinstall": "./package.sh both install"
   }
 }
