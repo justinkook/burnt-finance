@@ -1,5 +1,14 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Mulish:400,700,300,600,800");
+@import url("https://fonts.googleapis.com/css?family=Mulish:400,700,800");
+
+@font-face {
+  font-family: "Sharp Sans No1-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c612f131ffacb000b43280d/Sharp Sans No1 - Bold.otf")
+    format("opentype");
+}
+
 * {
   box-sizing: border-box;
 }

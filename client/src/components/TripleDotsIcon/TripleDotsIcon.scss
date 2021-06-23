@@ -1,0 +1,31 @@
+.ellipse-8 {
+  background-color: var(--manatee);
+  border-radius: 2px;
+  height: 4px;
+  margin-top: 2px;
+  mix-blend-mode: normal;
+  width: 4px;
+}
+.ellipse-86 {
+  background-color: var(--manatee);
+  border-radius: 2px;
+  height: 4px;
+  mix-blend-mode: normal;
+  width: 4px;
+}
+.menu {
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-left: 383px;
+  min-height: 16px;
+  transform: rotate(-90deg);
+  width: 16px;
+}
+.menu.menu-1 {
+  border: unset;
+  cursor: unset;
+  margin-left: 136px;
+}
