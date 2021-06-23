@@ -2,7 +2,7 @@ import React from "react";
 import Group935 from "../Group935";
 import "./Desktop42.css";
 
-function Desktop42(props) {
+function Desktop42(props: any) {
   const {
     overlapGroup6,
     motorcycles,
@@ -14,7 +14,7 @@ function Desktop42(props) {
   } = props;
 
   return (
-    <div class="container-center-horizontal">
+    <div className="container-center-horizontal">
       <div className="desktop-42 screen">
         <div className="overlap-group">
           <Group935 {...group935Props} />

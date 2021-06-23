@@ -2,7 +2,7 @@ import React from "react";
 import Group935 from "../Group935";
 import "./Desktop58.css";
 
-function Desktop58(props) {
+function Desktop58(props: any) {
   const {
     overlapGroup6,
     uiCloseLargeBlack,
@@ -13,7 +13,7 @@ function Desktop58(props) {
   } = props;
 
   return (
-    <div class="container-center-horizontal">
+    <div className="container-center-horizontal">
       <div className="desktop-58 screen">
         <div className="overlap-group-18">
           <Group935 {...group925Props} />

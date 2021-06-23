@@ -1,7 +1,7 @@
 import React from "react";
 import "./Group32.css";
 
-function Group32(props) {
+function Group32(props: any) {
   const { children } = props;
 
   return (

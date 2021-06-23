@@ -6,7 +6,7 @@ import Group4274 from "../Group4274";
 import CarouselIndicator from "../CarouselIndicator";
 import "./Desktop21.css";
 
-function Desktop21(props) {
+function Desktop21(props: any) {
   const {
     line67,
     text1,
@@ -76,7 +76,7 @@ function Desktop21(props) {
   } = props;
 
   return (
-    <div class="container-center-horizontal">
+    <div className="container-center-horizontal">
       <div className="desktop-21 screen">
         <div className="header-6">
           <div className="ellipse-2-7"></div>

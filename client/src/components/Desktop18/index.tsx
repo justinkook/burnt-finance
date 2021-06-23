@@ -9,7 +9,7 @@ import CarouselIndicator from "../CarouselIndicator";
 import Group32 from "../Group32";
 import "./Desktop18.css";
 
-function Desktop18(props) {
+function Desktop18(props: any) {
   const {
     line67,
     text1,
@@ -100,7 +100,7 @@ function Desktop18(props) {
   } = props;
 
   return (
-    <div class="container-center-horizontal">
+    <div className="container-center-horizontal">
       <div className="desktop-18 screen">
         <div className="overlap-group-5">
           <div className="group-934">

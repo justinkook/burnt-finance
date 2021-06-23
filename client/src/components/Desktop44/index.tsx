@@ -11,7 +11,7 @@ import Group926 from "../Group926";
 import Group930 from "../Group930";
 import "./Desktop44.css";
 
-function Desktop44(props) {
+function Desktop44(props: any) {
   const {
     motorcycles,
     line126,
@@ -57,7 +57,7 @@ function Desktop44(props) {
   } = props;
 
   return (
-    <div class="container-center-horizontal">
+    <div className="container-center-horizontal">
       <div className="desktop-44 screen">
         <div className="overlap-group-19">
           <Header

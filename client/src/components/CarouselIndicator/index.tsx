@@ -1,7 +1,7 @@
 import React from "react";
 import "./CarouselIndicator.css";
 
-function CarouselIndicator(props) {
+function CarouselIndicator(props: any) {
   const { className } = props;
 
   return (

@@ -7,7 +7,7 @@ import FavoriteBorder from "../FavoriteBorder";
 import Group435 from "../Group435";
 import "./BurntFinanceHomePage.css";
 
-function BurntFinanceHomePage(props) {
+function BurntFinanceHomePage(props: any) {
   const {
     line67,
     text1,
@@ -118,7 +118,7 @@ function BurntFinanceHomePage(props) {
   } = props;
 
   return (
-    <div class="container-center-horizontal">
+    <div className="container-center-horizontal">
       <div className="burntfinance-homepage screen">
         <div className="overlap-group6-2">
           <div className="header-7">

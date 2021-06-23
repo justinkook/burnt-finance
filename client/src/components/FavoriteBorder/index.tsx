@@ -1,7 +1,7 @@
 import React from "react";
 import "./FavoriteBorder.css";
 
-function FavoriteBorder(props) {
+function FavoriteBorder(props: any) {
   const { vector2, className } = props;
 
   return (

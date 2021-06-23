@@ -3,7 +3,7 @@ import Group35 from "../Group35";
 import Group454 from "../Group454";
 import "./BurntFinanceLandingPage.css";
 
-function BurntFinanceLandingPage(props) {
+function BurntFinanceLandingPage(props: any) {
   const {
     maskGroup,
     overlapGroup6,
@@ -40,7 +40,7 @@ function BurntFinanceLandingPage(props) {
   } = props;
 
   return (
-    <div class="container-center-horizontal">
+    <div className="container-center-horizontal">
       <div className="burntfinance-landingpage screen">
         <div className="overlap-group-17">
           <div className="header-8"></div>

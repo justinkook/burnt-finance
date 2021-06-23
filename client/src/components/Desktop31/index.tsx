@@ -2,7 +2,7 @@ import React from "react";
 import Group932 from "../Group932";
 import "./Desktop31.css";
 
-function Desktop31(props) {
+function Desktop31(props: any) {
   const {
     maskGroup,
     motorcycles,
@@ -31,7 +31,7 @@ function Desktop31(props) {
   } = props;
 
   return (
-    <div class="container-center-horizontal">
+    <div className="container-center-horizontal">
       <div className="desktop-31 screen">
         <div className="overlap-group-2">
           <img className="mask-group" src={maskGroup} />

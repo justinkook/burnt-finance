@@ -2,7 +2,7 @@ import React from "react";
 import Group4543 from "../Group4543";
 import "./Header.css";
 
-function Header(props) {
+function Header(props: any) {
   const { rectangle722, className, group4543Props } = props;
 
   return (

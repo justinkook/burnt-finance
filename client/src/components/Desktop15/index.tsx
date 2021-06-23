@@ -3,7 +3,7 @@ import Header from "../Header";
 import Group932 from "../Group932";
 import "./Desktop15.css";
 
-function Desktop15(props) {
+function Desktop15(props: any) {
   const {
     motorcycles,
     motorcycles2,
@@ -27,7 +27,7 @@ function Desktop15(props) {
   } = props;
 
   return (
-    <div class="container-center-horizontal">
+    <div className="container-center-horizontal">
       <div className="desktop-15 screen">
         <div className="overlap-group-4">
           <div className="motorcycles-9 valign-text-middle mulish-bold-black-32px">

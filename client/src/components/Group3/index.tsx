@@ -1,7 +1,7 @@
 import React from "react";
 import "./Group3.css";
 
-function Group3(props) {
+function Group3(props: any) {
   const { children } = props;
 
   return (

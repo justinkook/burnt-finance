@@ -11,7 +11,7 @@ import Group749 from "../Group749";
 import Group930 from "../Group930";
 import "./Desktop43.css";
 
-function Desktop43(props) {
+function Desktop43(props: any) {
   const {
     motorcycles,
     uploadFile,
@@ -42,7 +42,7 @@ function Desktop43(props) {
   } = props;
 
   return (
-    <div class="container-center-horizontal">
+    <div className="container-center-horizontal">
       <div className="desktop-43 screen">
         <div className="overlap-group2-2">
           <Header
