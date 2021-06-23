@@ -623,7 +623,7 @@ const landingPageData = {
   vector332: "/assets/img/vector-3-1@2x.svg",
   linkicon2: "/assets/img/line-35@2x.svg",
   line35: "/assets/img/image-3@2x.png",
-  overlapGroup2: "/assets/img/mask-group-1@1x.svg",
+  overlapGroup2: "/assets/img/image-7.svg",
   create2: "Learn more",
   learn2:
     "Banksy Artwork Burned And Turned Into Digital Art By Crypto Fans; Sold As NFT For $380K",
