@@ -9,10 +9,11 @@
     "url": "https://github.com/justinkook/burnt-finance"
   },
   "scripts": {
+    "heroku-prebuild": "npm install --dev",
     "build": "webpack --mode production",
     "test": "echo 'no test specified'",
     "start": "node ./dist/server.js",
-    "start:dev": "ts-node src/index.ts",
+    "start:dev": "nodemon src/index.ts",
     "build:dev": "webpack --mode development",
     "format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
